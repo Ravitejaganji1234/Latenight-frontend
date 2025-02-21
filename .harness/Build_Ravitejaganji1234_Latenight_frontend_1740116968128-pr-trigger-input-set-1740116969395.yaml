@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_Ravitejaganji1234_Latenight_frontend_1740116968128-pr-trigger-input-set
+  identifier: Build_Ravitejaganji1234_Latenight_frontend_1740116968128prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: Practice
+  pipeline:
+    identifier: Build_Ravitejaganji1234_Latenight_frontend_1740116968128
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
